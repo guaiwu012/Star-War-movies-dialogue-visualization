@@ -1,3 +1,5 @@
+<img width="2293" height="963" alt="image" src="https://github.com/user-attachments/assets/4522ddc5-a663-4ce5-9f52-006b31244264" />
+
 # 🌌 Star Wars Dialogue Visualization Dashboard
 
 An **interactive data visualization app** built with **Python, Dash, and Cytoscape**, visualizing the **conversation networks**, **character sentiments**, and **speaking frequencies** across the *Star Wars Original Trilogy* (Episodes IV–VI).
@@ -32,27 +34,6 @@ An **interactive data visualization app** built with **Python, Dash, and Cytosca
 ✅ **Faction Legend**
 - Top-right legend shows each **faction color mapping** and edge meaning.
 
----
-
-## 🗂 Directory Structure | 目录结构
-
-proj/
-├─ assets/
-│ ├─ avatars/ # Character avatar images (.png)
-│ └─ style.css # (Optional) custom CSS for future design
-│
-├─ starwars_core/
-│ ├─ sw_lines.csv # Character dialogue lines (used for sentiment & counts)
-│ ├─ sw_movies.csv # Movie titles & metadata (used for dropdown)
-│
-├─ starwars_filtered/
-│ ├─ edges_total.csv # Conversation edges (weights = dialogue counts)
-│ ├─ edges_time.csv # (Optional) time-based edges (for future animation)
-│ ├─ nodes.csv # Node attributes (character, faction, avatar)
-│
-├─ process.ipynb # Main notebook (run this to start the Dash app)
-├─ requirements.txt # Python environment dependencies
-└─ README.md # Project documentation (this file)
 
 
 ---
